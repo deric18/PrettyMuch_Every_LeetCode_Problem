@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Threading;
 
-namespace ConsoleApp1 {
+namespace ConsoleApp1
+{
+        
     class Solution12
     {
         private int number;
@@ -11,8 +13,8 @@ namespace ConsoleApp1 {
         { number = 12; }
                 
 
-        public static void Main(string[] args)
-        {
+        public static void Main(string[] args)          //CoinChange Problem : asked in Microsoft // All function definitions given in all the files match with there respective problem Titles and if you want run a test something just declare that method and call tha method from Main to test your inputs
+        {                                                             //This code is free for anybody to copy , edit and repost it anywhere , more power to opensource.
             int amt = 11;
             int[] coins = new int[3] { 1, 2, 5 };
             HashSet<int> set = new HashSet<int>();

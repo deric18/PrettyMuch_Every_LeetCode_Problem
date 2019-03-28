@@ -8,7 +8,8 @@ namespace ConsoleApp1
 {
     public class Solution
     {
-        public int[] DailyTemperatures(int[] T)
+        public int[] DailyTemperatures(int[] T)         //Bloomberg Coding Problem : also found in leetcode with title DailyTemperatures // All function definitions given in all the files match with there respective problem Titles and if you want run a test something just declare that method and call tha method from Main to test your inputs
+                                                        //This code is free for anybody to copy , edit and repost it anywhere , more power to opensource.
         {
             int[] predictList = new int[T.Length];
             List<int> unsettledlist = new List<int>();
